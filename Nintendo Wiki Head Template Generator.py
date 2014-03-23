@@ -23,7 +23,7 @@ print("----------\nIf one or more of the following categories do not apply to th
 article_type = input("Article type?")
 
 #Check article type
-if not (article_type == "" or article_type == "Character" or article_type == "Location" or article_type == "Item" or article_type == "Person" or article_type == "System" or article_type == "Accessory" or article_type == "Game" or article_type == "Species" or article_type == "Organization" or article_type == "Company" or article_type == "Product" or article_type == "Soundtrack" or article_type == "Fan Website" or article_type == "Attack" or article_type == "Group" or article_type == "Event" or article_type == "Year" or article_type == "Terminology" or article_type == "Magazine" or article_type == "Class" or article_type == "Series" or article_type == "Chapter" or article_type == "Ability" or article_type == "Other"):
+while not (article_type == "" or article_type == "Character" or article_type == "Location" or article_type == "Item" or article_type == "Person" or article_type == "System" or article_type == "Accessory" or article_type == "Game" or article_type == "Species" or article_type == "Organization" or article_type == "Company" or article_type == "Product" or article_type == "Soundtrack" or article_type == "Fan Website" or article_type == "Attack" or article_type == "Group" or article_type == "Event" or article_type == "Year" or article_type == "Terminology" or article_type == "Magazine" or article_type == "Class" or article_type == "Series" or article_type == "Chapter" or article_type == "Ability" or article_type == "Other"):
     print ("----------\nIncorrect article type! A list of the correct article types can be found at http://nintendo.wikia.com/wiki/Template:Head#Types \n Remeber that you must input it with correct spelling and the first letter of each word capitalized.")
     article_type = input("Article type?")
 
@@ -34,7 +34,7 @@ stub = input("Stub? (If not, leave blank)")
 article_class = input("Article class? (A-E, X)")
 
 #Check article class
-if not (article_class == "" or article_class == "A" or article_class == "B" or article_class == "C" or article_class == "D" or article_class == "E" or article_class == "X" or article_class == "?"):
+while not (article_class == "" or article_class == "A" or article_class == "B" or article_class == "C" or article_class == "D" or article_class == "E" or article_class == "X" or article_class == "?"):
     print ("----------\nIncorrect article class! A list of the correct article classes can be found at http://nintendo.wikia.com/wiki/Nintendo_Wiki:Page_Classification \n Remeber that you must input it as a capital letter.")
     article_class = input("Article class? (A-E, X)")
 
