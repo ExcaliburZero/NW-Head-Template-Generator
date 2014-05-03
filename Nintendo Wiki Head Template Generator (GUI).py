@@ -29,7 +29,7 @@ def generate_head():
     nfor3 = for3.get()
 
     #Put together output
-    output = "{|"
+    output = "{{Head"
     if not narticle_type == "":
         output = output + "\n| type = " + narticle_type
     if not nquote == "":
@@ -53,7 +53,7 @@ def generate_head():
         output = output + "\n| for2 = " + nfor2
     if not nfor3 == "":
         output = output + "\n| for3 = " + nfor3
-    output = output + "\n|}"
+    output = output + "\n}}"
 
     #Output template code
     output_template = Text(theGUI, height = 16, width = 23)
